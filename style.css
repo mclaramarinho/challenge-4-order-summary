@@ -1,0 +1,134 @@
+@media (max-width:375px) {
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        padding: 3% 0;
+    }
+
+}
+
+@media (min-width:375px) {
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: repeat-x;
+        padding: 8% 0;
+    }
+}
+
+
+/* BODY SETTINGS */
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+}
+
+/* BACKGROUND COLOR */
+.proceed, .proceed:hover{
+    background-color: hsl(245, 75%, 52%);
+}
+body, 
+
+/* BORDER SETTINGS */
+.plan-chosen, .proceed{
+    -moz-border-radius:10;
+    border-radius: 10px;
+}
+.card{
+    -moz-border-radius:20;
+    border-radius: 20px;
+}
+.card-img{
+    -moz-border-radius:20;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* MARGIN SETTINGS */
+.card, .plan-chosen{
+    margin: auto;
+}
+
+/* FONT WEIGHTS */
+.card-title, #plan-type{
+    font-weight: 900;
+}
+.change-button, .cancel, .proceed{
+    font-weight: 700;
+}
+
+/* FONT COLOR */
+.proceed, .proceed:hover{
+    color: white;
+}
+.card-text, #price, .cancel{
+    color: hsl(224, 23%, 55%);
+}
+
+/* WIDTH SETTINGS */
+.plan-chosen, .proceed{
+    width: 320px;
+}
+
+
+/* CARD SETTINGS */
+.card{
+    width: 400px;
+    text-align: center;
+}
+.card-title{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+.card-text{
+    margin-top: 5%;
+}
+
+/* CHOSEN PLAN AREA */
+.plan-chosen{
+    background-color: hsl(225, 100%, 98%);
+    padding: 2%;
+}
+#music-icon{
+    margin-top: 25%;
+}
+#plan-type, #price{
+    text-align: left;
+    padding: 0px;
+    font-size: .95rem;
+}
+#plan-type{
+    margin-top: 10%;
+}
+#price{
+    margin-top: -15px;
+}
+
+
+/* BUTTON SETTINGS */
+.change-button{
+    padding-top: 7%;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 0.85rem;
+}
+#change:hover{
+    text-decoration: none;
+    opacity: 0.65;
+}
+.proceed{
+    margin-top: 8%;
+    padding: 3% 0;
+    font-size: 0.85rem;
+    box-shadow: 0px 15px 15px hsla(224, 23%, 55%, 0.329);
+}
+.proceed:hover{
+    opacity: 0.75;
+}
+.cancel{
+    margin: 5% auto 3% auto;
+    font-size: 0.8rem;
+}
+.cancel:hover{
+    color: hsl(245, 75%, 52%);
+}
